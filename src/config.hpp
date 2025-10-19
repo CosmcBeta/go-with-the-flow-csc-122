@@ -22,6 +22,7 @@ public:
 
     Config configureHeatFlow();
 
+private:
     int getInput(int lowerBound, int upperBound, const std::string& prompt, int defaultValue);
     float getInput(float lowerBound, float upperBound, const std::string& prompt, float defaultValue);
 
