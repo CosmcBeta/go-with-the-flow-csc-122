@@ -1,13 +1,9 @@
 #pragma once
 
+#include "source.hpp"
+
 #include <vector>
 
-struct Source
-{
-    Source(int i, float s);
-    int index;
-    float sourceAmount;
-};
 
 class HeatFlow
 {

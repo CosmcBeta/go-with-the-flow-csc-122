@@ -1,10 +1,12 @@
+#include "../src/heat_flow.hpp"
+
 #include <catch2/catch_test_macros.hpp>
 #include <catch2/benchmark/catch_benchmark.hpp>
 #include <catch2/benchmark/catch_constructor.hpp>
 #include <catch2/generators/catch_generators_range.hpp>
+
 #include <vector>
 
-#include "../src/heat_flow.hpp"
 
 const std::vector<Source> SOURCES {{0, 100.0}};
 const float INITIAL_TEMP {10};

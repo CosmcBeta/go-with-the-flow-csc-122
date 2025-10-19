@@ -100,7 +100,3 @@ std::vector<float>& HeatFlow::getRod()
 {
     return rod_;
 }
-
-Source::Source(int i, float s)
-:index(i), sourceAmount(s)
-{}
